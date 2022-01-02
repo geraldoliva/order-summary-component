@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e0e8ff;
+  /* height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle; */
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wrapper {
+  padding: 2rem;
+  max-width: 37.5rem;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+main {
+  text-align: center;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+main h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding-top: 2.8rem;
+  margin-bottom: 1.8rem;
+}
+
+main p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #717fa6;
+  line-height: 2.5rem;
+  max-width: 26.3rem;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 27.9rem;
+  margin: 0 auto;
+  background-color: #f7f9ff;
+  padding: 2rem 1.4rem;
+  border-radius: 11px;
+  margin-top: 2.1rem;
+}
+
+.frequency {
+  font-size: 1.4rem;
+  color: #1f2e55;
+  font-weight: 900;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.change-link {
+  color: #382ae1;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0;
+  align-self: center;
+  text-decoration: underline;
+  transition: color 0.3s ease-in, text-decoration-color 0.3s ease-in-out;
+}
+
+.change-link:hover {
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration-color: transparent;
+}
+
+.freq-price-wrapper {
+  margin-left: -2rem;
+}
+
+button {
+  max-width: 27.9rem;
+  background-color: #382ae1;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 11px;
+  padding: 1.5rem 6.65rem;
+  border: none;
+  margin-top: 2.8rem;
+  box-shadow: 0 20px 20px rgba(56, 42, 225, 0.190291);
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease-in;
+}
+
+button:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+.cancel {
+  padding-bottom: 2rem;
+  color: #717fa6;
+  font-weight: 900;
+  transition: color 0.3s ease-in;
+  max-width: 120px;
+}
+
+.cancel:hover {
+  color: #1f2e55;
+  cursor: pointer;
+}
